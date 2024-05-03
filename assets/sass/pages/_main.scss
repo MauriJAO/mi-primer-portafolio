@@ -1,0 +1,53 @@
+
+@media screen and (max-width: 575.98px) {
+    .intro__text {
+      padding-top: 20px; /* Ajusta el valor según lo necesites */
+    }
+    .intro_button{
+        width: 100%;
+    }
+    
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact form{
+        width: 100%;
+        
+    }
+
+    .contact__info{
+        width: 95%;
+    }
+
+}
+
+
+@media screen and (min-width: 576px) {
+    .intro__text {
+      padding: 20px; /* Ajusta el valor según lo necesites */
+    }
+
+    .project{
+        flex-wrap: nowrap !important;
+    }
+    
+    .skills_items{
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+.navbar-brand{
+    font-family: "Jaro", sans-serif;;
+}
+
+.intro_text--title{
+    font-size: xx-large;
+}
+
+.intro_text--caption{
+    font-size: x-large;
+}

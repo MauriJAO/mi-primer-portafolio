@@ -1,0 +1,13 @@
+$principal: #F4FFF2;
+$segundo: #23315A;
+$tercero: #c0d6e4;
+
+$primary: $principal;
+$secondary: $segundo;
+$success: $tercero;
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../assets/sass/base/base";
+@import "../../assets/sass/pages/main";
+
